@@ -1,7 +1,5 @@
 # Cryptography-Decryption-CyberChef-Lab
 
-<img src="" width="500">
-
 <h2>Introduction</h2>
 The objective for this assignment is to successfully break an encrypted binary file that has been base64 encoded. In this report I will clearly explain the steps taken to decrypt the file as well as correctly identify the key in order to recover the plaintext. Additionally, I will also discuss cryptographic encryption/decryption concepts as well as the proper use of tools to break the code.
 
@@ -34,22 +32,6 @@ A commonly used block cipher, Data Encryption Standard (DES), was intended to be
 
 Another common type of symmetric encryption algorithm is AES which “uses a 128-bit block size and a 128-, 192- or 256-bit key size.” [6] AES-256 has the largest bit-size with a key length of 256-bits and is virtually resilient to the brute force method regarding modern computer hardware and software. Its implementations include wireless security, file encryption as well as encrypted web-based Internet browsing. [7]
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <h3>Steps – How the Ciphertext was Decrypted:</h3>
 At first, I attempted to manually break the encrypted message in combination with utilising an online frequency analysis tool published by dcode.fr. Using the frequency analysis method, the tool will attempt to decode the ciphertext. The results from my attempts proved to be fruitless in the decryption process to discover the secret key which I would then XOR the characters to reveal a possible plaintext character since the XOR encryption method is symmetrical to using the XOR encryption method using the ASCII table. However, this proved to be time consuming and not efficient. My results using this method produced humanly unintelligible plaintext and therefore I proceeded to seek another more efficient method to break the code of the encrypted message. [9]
 
@@ -64,50 +46,12 @@ After being given an encrypted file to break its code I found a decryption a too
 Utilising a tool named, ‘CyberChef’ I entered the encrypted ciphertext into the ‘input’ field as previously seen in Figure 2. Through trial-and-error, the operations used to break the code were first to use the ‘From Base64’ operation in combination with the ‘XOR brute force’ operation. This process resulted in producing dozens of potentially possibly correct HEX secret keys. Using basic human intelligence, whilst making the way down the list of the outputted possible combinations of secret keys containing chunks of intelligible portions of the potentially original plaintext, I was able to discernibly find the correct secret key. [10] In this instance, the secret key containing a portion of the humanly intelligible text was the key, ‘6e’ as highlighted in Figure 3.
 
 <h3>Figure 3. – XOR Brute Forcing the Encrypted Ciphertext</h3>
- 
- 
-<img src="" width="500">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="https://github.com/martinmathurine/Cryptography-Decryption-CyberChef-Lab/assets/42855193/928a30a3-0d6d-4304-965a-c83f6fe53a4d" width="500">
 
 Now in possession of the potential secret key (6e), I then replaced the ‘XOR brute force’ operation with an ‘XOR’ operation and equipped with ‘6e’ secret key then revealed the original plaintext in the ‘Output’ field as shown in Figure 4.
 
 <h3>Figure 4. – Decrypted Original Plaintext Revealed</h3>
- 
- 
-
-<img src="" width="500">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="https://github.com/martinmathurine/Cryptography-Decryption-CyberChef-Lab/assets/42855193/c3d34e2b-1b0e-4b59-9845-6328b9ede674" width="500">
 
 <h2>Results</h2>
 <h3>Decoding:</h3>
@@ -120,26 +64,14 @@ The discovered secret key through trial-and-error used for decrypting the messag
 Figure 5. below shows the recovered original plaintext using the secret key, ‘6e’.
 
 <h3>Figure 5. – Original Plaintext</h3>
- 
- 
-<img src="" width="500">
-
-
-
-
-
-
-
+<img src="https://github.com/martinmathurine/Cryptography-Decryption-CyberChef-Lab/assets/42855193/af89c125-7ed8-472d-9264-0b3f6b8a1e84" width="500">
 
 The Original Plaintext As Shown in Figure 5.<h3>
 “power. Those individual flowers which had the largest glands or nectaries, and which excreted most nectar, would be oftenest visited by insects, and would be oftenest crossed; and so in the long-run would gain the upper hand. Those flowers, also, which had their stamens and pistils placed, in relation to the size and habits of the particular insects which visited them, so as to favour in any degree the transportal of their pollen from flower to flower, would likewise be
 favoured or selected. We might have taken the case of insects visiting flowers for the sake of collecting pollen instead of nectar; and as pollen is formed for the sole object of fertilisation, its destruction appears a simple loss to the plant; yet if a little pollen were carried, at first occasionally and then habitually, by the pollen-devouring insects from flower to flower, and a cross thus effected, although nine-tenths of the pollen were destroyed, it might still be a great gain to the plant; and th”
 
-
 <h2>Concluding Reflections</h2>
 Over the past two millennia, applied cryptography was used mostly for securing data in transit such as the Caesar cipher through to modern times in the age of technology with its deployment in Transport Layer Security (TLS), file encryption in addition to end-to-end message encryption among other applications. In recent times, cryptography is a necessary tool used to provide information assurances for data on all layers of the OSI model as the data traverses through a computer network. Today, cryptography and its sufficient applications are essential in an ever-increasing amount of technology being used which needs to communicate with each other, especially with the current upward trend of Internet-of-Things (IoT) devices in an ever more progressively connected society. In turn, this calls for a need for improved data security assurances. In conclusion, although cyber-attackers can utilise a plethora of reverse-engineered data attack methods as long the best security practices are in place and implemented with sufficient encryption protocols and algorithms to secure data for individuals and entities the data can be strongly protected in the presence of malicious third-parties.
-
-
 
 References
 [1] W. Stallings, Cryptography & Network Security GE, 7th ed. Essex: Harlow: Pearson Australia Pty Ltd, 2017, pp. 20, 86, 622-638.
