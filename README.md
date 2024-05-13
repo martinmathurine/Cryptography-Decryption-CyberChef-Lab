@@ -6,16 +6,17 @@ test
 
 <img src="" width="500">
 
-<h3>Introduction</h3>
+<h2>Introduction</h2>
 The objective for this assignment is to successfully break an encrypted binary file that has been base64 encoded. In this report I will clearly explain the steps taken to decrypt the file as well as correctly identify the key in order to recover the plaintext. Additionally, I will also discuss cryptographic encryption/decryption concepts as well as the proper use of tools to break the code.
 
 Modern cryptography uses five key principles for information assurance which are as follows; Availability – How sensitive data can be made available to end-users. Confidentiality – The intended recipient is the only person able to view the sensitive information. Integrity – To ensure data has not been modified in any way between transmission from the sender to the recipient. Non-repudiation – Proof of successfully transferring information from both the sender and the recipient. Authentication – Before accessing any personal information, procedures are in place to check that the user is valid. [2]
 
 In cryptography, cryptographic techniques are employed in order to securely protect information and communication through the implementation of codes so that only the authorised party can successfully read the message. Cryptography is used to conceal stored information as well as during its transmission. In modern times, cryptography mostly implies scrambling plaintext into ciphertext in a process called, ‘enciphering’ or ‘encryption’, then vice-versa in a process called, ‘deciphering’ or ‘decryption’ which restores the plaintext using the key. Individuals who practice this field of study are known as cryptographers. This type of scheme is known as a ‘cryptographic system’ or a ‘cipher’. Techniques used for deciphering a message without any prior knowledge of the encryption algorithm used are known as the field of ‘cryptanalysis’. Cryptanalysis is defined simply as cracking/breaking the code. The areas of cryptography and cryptanalysis together are called cryptology. [1]
 
-<h3>Summary</h3>
+<h2>Summary</h2>
 The purpose of this report is to draw on a variety of cryptographic concepts whilst appreciating and discussing the significance of some of the techniques used to decrypt the message’s ciphertext within the encrypted file.
-Decryption Methodology
+
+<h2>Decryption Methodology</h2>
 When an unauthorised entity intercepts an encrypted message, the unauthorised entity must make an educated guess of which cipher the sender used to encrypt the message as well as what key/s were used as variables. The time and difficulty of guessing this information are what make encryption such a valuable security tool. [3] In regards to this assignment, it was already ascertained that the file was Base64 encoded and has an 8-bit key.
 
 <h3>Base64 Decoding:</h3>
@@ -129,8 +130,7 @@ Now in possession of the potential secret key (6e), I then replaced the ‘XOR b
 
 
 
-<h3>Results</h3>
-
+<h2>Results</h2>
 <h3>Decoding:</h3>
 Utilising ‘CyberChef’ with its vast set of operations led to me successfully achieve my expected outcome as illustrated in Figures 3 and 4. The end-result was computed fast as well as efficiently as opposed to attempting to solve this cryptographic puzzle manually via the use frequency analysis which did not go to plan. The decryption process with the correct operations in place took less than 1-minute to successfully decrypt the file and reveal the original plaintext message in the ASCII character set.
 
@@ -149,7 +149,7 @@ The Original Plaintext As Shown in Figure 5.<h3>
 favoured or selected. We might have taken the case of insects visiting flowers for the sake of collecting pollen instead of nectar; and as pollen is formed for the sole object of fertilisation, its destruction appears a simple loss to the plant; yet if a little pollen were carried, at first occasionally and then habitually, by the pollen-devouring insects from flower to flower, and a cross thus effected, although nine-tenths of the pollen were destroyed, it might still be a great gain to the plant; and th”
 
 
-<h3>Concluding Reflections</h3>
+<h2>Concluding Reflections</h2>
 Over the past two millennia, applied cryptography was used mostly for securing data in transit such as the Caesar cipher through to modern times in the age of technology with its deployment in Transport Layer Security (TLS), file encryption in addition to end-to-end message encryption among other applications. In recent times, cryptography is a necessary tool used to provide information assurances for data on all layers of the OSI model as the data traverses through a computer network. Today, cryptography and its sufficient applications are essential in an ever-increasing amount of technology being used which needs to communicate with each other, especially with the current upward trend of Internet-of-Things (IoT) devices in an ever more progressively connected society. In turn, this calls for a need for improved data security assurances. In conclusion, although cyber-attackers can utilise a plethora of reverse-engineered data attack methods as long the best security practices are in place and implemented with sufficient encryption protocols and algorithms to secure data for individuals and entities the data can be strongly protected in the presence of malicious third-parties.
 
 
