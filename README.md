@@ -73,7 +73,7 @@ favoured or selected. We might have taken the case of insects visiting flowers f
 <h2>Concluding Reflections</h2>
 Over the past two millennia, applied cryptography was used mostly for securing data in transit such as the Caesar cipher through to modern times in the age of technology with its deployment in Transport Layer Security (TLS), file encryption in addition to end-to-end message encryption among other applications. In recent times, cryptography is a necessary tool used to provide information assurances for data on all layers of the OSI model as the data traverses through a computer network. Today, cryptography and its sufficient applications are essential in an ever-increasing amount of technology being used which needs to communicate with each other, especially with the current upward trend of Internet-of-Things (IoT) devices in an ever more progressively connected society. In turn, this calls for a need for improved data security assurances. In conclusion, although cyber-attackers can utilise a plethora of reverse-engineered data attack methods as long the best security practices are in place and implemented with sufficient encryption protocols and algorithms to secure data for individuals and entities the data can be strongly protected in the presence of malicious third-parties.
 
-References
+<h2>References</h2>
 [1] W. Stallings, Cryptography & Network Security GE, 7th ed. Essex: Harlow: Pearson Australia Pty Ltd, 2017, pp. 20, 86, 622-638.
 
 [2] K. Richards, "cryptography", techtarget.com, 2022. [Online]. Available: https://www.techtarget.com/searchsecurity/definition/cryptography. [Accessed: 01- Jul- 2022].
