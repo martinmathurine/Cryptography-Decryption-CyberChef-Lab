@@ -56,12 +56,12 @@ Another common type of symmetric encryption algorithm is AES which “uses a 128
 <h3>Steps – How the Ciphertext was Decrypted:</h3>
 At first, I attempted to manually break the encrypted message in combination with utilising an online frequency analysis tool published by dcode.fr. Using the frequency analysis method, the tool will attempt to decode the ciphertext. The results from my attempts proved to be fruitless in the decryption process to discover the secret key which I would then XOR the characters to reveal a possible plaintext character since the XOR encryption method is symmetrical to using the XOR encryption method using the ASCII table. However, this proved to be time consuming and not efficient. My results using this method produced humanly unintelligible plaintext and therefore I proceeded to seek another more efficient method to break the code of the encrypted message. [9]
 
-<h2>Figure 1. – Frequency Analysis Method</h2>
+<h3>Figure 1. – Frequency Analysis Method</h3>
  
 
 After being given an encrypted file to break its code I found a decryption a tool named, ‘CyberChef’ published on GitHub’s platform by a member named, ‘GCHQ’. CyberChef was utilised to successfully break the code of the ciphertext, thus revealing the original plaintext. [10]
 
-<h2>Figure 2. – Encrypted Ciphertext</h2>
+<h3>Figure 2. – Encrypted Ciphertext</h3>
  
 
 
@@ -87,7 +87,8 @@ After being given an encrypted file to break its code I found a decryption a too
 
 Utilising a tool named, ‘CyberChef’ I entered the encrypted ciphertext into the ‘input’ field as previously seen in Figure 2. Through trial-and-error, the operations used to break the code were first to use the ‘From Base64’ operation in combination with the ‘XOR brute force’ operation. This process resulted in producing dozens of potentially possibly correct HEX secret keys. Using basic human intelligence, whilst making the way down the list of the outputted possible combinations of secret keys containing chunks of intelligible portions of the potentially original plaintext, I was able to discernibly find the correct secret key. [10] In this instance, the secret key containing a portion of the humanly intelligible text was the key, ‘6e’ as highlighted in Figure 3.
 
-<h2>Figure 3. – XOR Brute Forcing the Encrypted Ciphertext</h2>
+<h3>Figure 3. – XOR Brute Forcing the Encrypted Ciphertext</h3>
+ 
  
 
 
@@ -106,7 +107,8 @@ Utilising a tool named, ‘CyberChef’ I entered the encrypted ciphertext into 
 
 Now in possession of the potential secret key (6e), I then replaced the ‘XOR brute force’ operation with an ‘XOR’ operation and equipped with ‘6e’ secret key then revealed the original plaintext in the ‘Output’ field as shown in Figure 4.
 
-<h2>Figure 4. – Decrypted Original Plaintext Revealed</h2>
+<h3>Figure 4. – Decrypted Original Plaintext Revealed</h3>
+ 
  
 
 
@@ -138,54 +140,17 @@ The discovered secret key through trial-and-error used for decrypting the messag
 <h3>Recovery of Plaintext:</h3>
 Figure 5. below shows the recovered original plaintext using the secret key, ‘6e’.
 
-<h2>Figure 5. – Original Plaintext</h2>
+<h3>Figure 5. – Original Plaintext</h3>
+ 
  
 
-The Original Plaintext As Shown in Figure 5.</h2>
+The Original Plaintext As Shown in Figure 5.<h3>
 “power. Those individual flowers which had the largest glands or nectaries, and which excreted most nectar, would be oftenest visited by insects, and would be oftenest crossed; and so in the long-run would gain the upper hand. Those flowers, also, which had their stamens and pistils placed, in relation to the size and habits of the particular insects which visited them, so as to favour in any degree the transportal of their pollen from flower to flower, would likewise be
 favoured or selected. We might have taken the case of insects visiting flowers for the sake of collecting pollen instead of nectar; and as pollen is formed for the sole object of fertilisation, its destruction appears a simple loss to the plant; yet if a little pollen were carried, at first occasionally and then habitually, by the pollen-devouring insects from flower to flower, and a cross thus effected, although nine-tenths of the pollen were destroyed, it might still be a great gain to the plant; and th”
 
 
 <h3>Concluding Reflections</h3>
 Over the past two millennia, applied cryptography was used mostly for securing data in transit such as the Caesar cipher through to modern times in the age of technology with its deployment in Transport Layer Security (TLS), file encryption in addition to end-to-end message encryption among other applications. In recent times, cryptography is a necessary tool used to provide information assurances for data on all layers of the OSI model as the data traverses through a computer network. Today, cryptography and its sufficient applications are essential in an ever-increasing amount of technology being used which needs to communicate with each other, especially with the current upward trend of Internet-of-Things (IoT) devices in an ever more progressively connected society. In turn, this calls for a need for improved data security assurances. In conclusion, although cyber-attackers can utilise a plethora of reverse-engineered data attack methods as long the best security practices are in place and implemented with sufficient encryption protocols and algorithms to secure data for individuals and entities the data can be strongly protected in the presence of malicious third-parties.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
