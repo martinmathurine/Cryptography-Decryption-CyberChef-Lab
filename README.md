@@ -75,25 +75,16 @@ Over the past two millennia, applied cryptography was used mostly for securing d
 
 <h2>References</h2>
 [1] W. Stallings, Cryptography & Network Security GE, 7th ed. Essex: Harlow: Pearson Australia Pty Ltd, 2017, pp. 20, 86, 622-638.
-
 [2] K. Richards, "cryptography", techtarget.com, 2022. [Online]. Available: https://www.techtarget.com/searchsecurity/definition/cryptography. [Accessed: 01- Jul- 2022].
-
 [3] P. Loshin, "encryption", techtarget.com, 2022. [Online]. Available: https://www.techtarget.com/searchsecurity/definition/encryption. [Accessed: 01- Jul- 2022].
-
 [4] geeksforgeeks.org, "Basic Type Base64 Encoding and Decoding in Java", geeksforgeeks.org, 2022. [Online]. Available: https://www.geeksforgeeks.org/basic-type-base64-encoding-and-decoding-in-java/#:~:text=Base%2064%20is%20an%20encoding,(Base%2064%20format%20reference). [Accessed: 01- Jul- 2022].
-
 [5] S. Yambadwar, "What is RC4 Encryption?", GeeksForGeeks, 2021. [Online]. Available: https://www.geeksforgeeks.org/what-is-rc4-encryption/. [Accessed: 01- Jul- 2022].
-
 [6] TechTarget, "Block Cipher", TechTarget, 2021. [Online]. Available: https://www.techtarget.com/searchsecurity/definition/block-cipher. [Accessed: 01- Jul- 2022].
-
 [7] precisely.com, "AES vs. DES Encryption: Why Advanced Encryption Standard (AES) has replaced DES, 3DES and TDEA", precisely.com, 2022. [Online]. Available: https://www.precisely.com/blog/data-security/aes-vs-des-encryption-standard-3des-tdea. [Accessed: 01- Jul- 2022].
-
 [8] S. Yambadwar, "What is RC4 Encryption?", GeeksForGeeks, 2021. [Online]. Available: https://www.geeksforgeeks.org/what-is-rc4-encryption/. [Accessed: 01- Jul- 2022].
-
 [11] S. Singh, "Letter Frequencies", The BLACK Chamber, Not published. [Online]. Available: https://www.simonsingh.net/The_Black_Chamber/letterfrequencies.html. [Accessed: 04- Jan- 2022].
 
 <h2>Software Used</h2>
 [9] dcode.fr, "XOR Decoder", dcode.fr, 2022. [Online]. Available: https://www.dcode.fr/xor-cipher. [Accessed: 01- Jul- 2022].
-
 [10] github.com/gchq, "CyberChef", https://github.com/gchq, 2022. [Online]. Available: https://gchq.github.io/CyberChef/. [Accessed: 01- Jul- 2022].
 
