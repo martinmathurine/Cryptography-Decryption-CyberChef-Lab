@@ -91,7 +91,8 @@ Over the past two millennia, applied cryptography was used mostly for securing d
 [8] S. Yambadwar, "What is RC4 Encryption?", GeeksForGeeks, 2021. [Online]. Available: https://www.geeksforgeeks.org/what-is-rc4-encryption/. [Accessed: 01- Jul- 2022].
 
 [11] S. Singh, "Letter Frequencies", The BLACK Chamber, Not published. [Online]. Available: https://www.simonsingh.net/The_Black_Chamber/letterfrequencies.html. [Accessed: 04- Jan- 2022].
-Software Used
+
+<h2>Software Used</h2>
 [9] dcode.fr, "XOR Decoder", dcode.fr, 2022. [Online]. Available: https://www.dcode.fr/xor-cipher. [Accessed: 01- Jul- 2022].
 
 [10] github.com/gchq, "CyberChef", https://github.com/gchq, 2022. [Online]. Available: https://gchq.github.io/CyberChef/. [Accessed: 01- Jul- 2022].
