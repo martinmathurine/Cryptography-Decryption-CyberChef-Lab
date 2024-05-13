@@ -1,8 +1,4 @@
 # Cryptography-Decryption-CyberChef-Lab
-Cryptography lab decrypting an encrypted .dat file with the CyberChef tool.
-
-
-test
 
 <img src="" width="500">
 
@@ -58,39 +54,20 @@ Another common type of symmetric encryption algorithm is AES which “uses a 128
 At first, I attempted to manually break the encrypted message in combination with utilising an online frequency analysis tool published by dcode.fr. Using the frequency analysis method, the tool will attempt to decode the ciphertext. The results from my attempts proved to be fruitless in the decryption process to discover the secret key which I would then XOR the characters to reveal a possible plaintext character since the XOR encryption method is symmetrical to using the XOR encryption method using the ASCII table. However, this proved to be time consuming and not efficient. My results using this method produced humanly unintelligible plaintext and therefore I proceeded to seek another more efficient method to break the code of the encrypted message. [9]
 
 <h3>Figure 1. – Frequency Analysis Method</h3>
- 
+<img src="https://github.com/martinmathurine/Cryptography-Decryption-CyberChef-Lab/assets/42855193/7855d3d5-1be8-4625-a75b-08ec43e27714" width="500">
 
 After being given an encrypted file to break its code I found a decryption a tool named, ‘CyberChef’ published on GitHub’s platform by a member named, ‘GCHQ’. CyberChef was utilised to successfully break the code of the ciphertext, thus revealing the original plaintext. [10]
 
 <h3>Figure 2. – Encrypted Ciphertext</h3>
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src="https://github.com/martinmathurine/Cryptography-Decryption-CyberChef-Lab/assets/42855193/7cd310d3-aaf9-4ab1-a56f-1bd4bb962bf2" width="500">
 
 Utilising a tool named, ‘CyberChef’ I entered the encrypted ciphertext into the ‘input’ field as previously seen in Figure 2. Through trial-and-error, the operations used to break the code were first to use the ‘From Base64’ operation in combination with the ‘XOR brute force’ operation. This process resulted in producing dozens of potentially possibly correct HEX secret keys. Using basic human intelligence, whilst making the way down the list of the outputted possible combinations of secret keys containing chunks of intelligible portions of the potentially original plaintext, I was able to discernibly find the correct secret key. [10] In this instance, the secret key containing a portion of the humanly intelligible text was the key, ‘6e’ as highlighted in Figure 3.
 
 <h3>Figure 3. – XOR Brute Forcing the Encrypted Ciphertext</h3>
  
  
+<img src="" width="500">
+
 
 
 
@@ -111,6 +88,8 @@ Now in possession of the potential secret key (6e), I then replaced the ‘XOR b
 <h3>Figure 4. – Decrypted Original Plaintext Revealed</h3>
  
  
+
+<img src="" width="500">
 
 
 
@@ -143,6 +122,14 @@ Figure 5. below shows the recovered original plaintext using the secret key, ‘
 <h3>Figure 5. – Original Plaintext</h3>
  
  
+<img src="" width="500">
+
+
+
+
+
+
+
 
 The Original Plaintext As Shown in Figure 5.<h3>
 “power. Those individual flowers which had the largest glands or nectaries, and which excreted most nectar, would be oftenest visited by insects, and would be oftenest crossed; and so in the long-run would gain the upper hand. Those flowers, also, which had their stamens and pistils placed, in relation to the size and habits of the particular insects which visited them, so as to favour in any degree the transportal of their pollen from flower to flower, would likewise be
