@@ -96,6 +96,5 @@ Over the past two millennia, applied cryptography was used mostly for securing d
 <h2>Software Used</h2>
 
 - [9] dcode.fr, "XOR Decoder", dcode.fr, 2022. [Online]. Available: https://www.dcode.fr/xor-cipher. [Accessed: 01- Jul- 2022].
-- 
+  
 - [10] github.com/gchq, "CyberChef", https://github.com/gchq, 2022. [Online]. Available: https://gchq.github.io/CyberChef/. [Accessed: 01- Jul- 2022].
-
