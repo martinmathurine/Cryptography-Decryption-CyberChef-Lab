@@ -4,11 +4,12 @@
 This assignment involved decrypting a base64-encoded binary file. In this report, I outline the steps taken to recover the plaintext, identify the encryption key, and explain relevant cryptographic concepts and tools used during the process.
 
 Modern cryptography is built on five key principles of information assurance:
-Availability – Ensuring data is accessible to authorised users.
-Confidentiality – Ensuring only the intended recipient can view sensitive data.
-Integrity – Verifying data hasn’t been altered in transit.
-Non-repudiation – Providing proof of delivery and receipt.
-Authentication – Validating user identity before granting access. [2]
+- Availability: Ensuring data is accessible to authorised users.
+Confidentiality: Ensuring only the intended recipient can view sensitive data.
+VIntegrityerifying data hasn’t been altered in transit.
+Verifying: data hasn’t been altered in transit.
+Non-repudiation: Providing proof of delivery and receipt.
+Authentication: Validating user identity before granting access. [2]
 
 Cryptography secures data through encryption, transforming plaintext into ciphertext, and decryption, which restores it using a key. These processes protect both stored and transmitted data. Cryptanalysis refers to techniques for breaking encryption without knowing the algorithm or key. Together, cryptography and cryptanalysis form the broader field of cryptology. [1]
 
