@@ -1,11 +1,16 @@
 # Cryptography-Decryption-CyberChef-Lab
 
 <h2>Introduction</h2>
-The objective for this assignment is to successfully break an encrypted binary file that has been base64 encoded. In this report I will clearly explain the steps taken to decrypt the file as well as correctly identify the key in order to recover the plaintext. Additionally, I will also discuss cryptographic encryption/decryption concepts as well as the proper use of tools to break the code.
+This assignment involved decrypting a base64-encoded binary file. In this report, I outline the steps taken to recover the plaintext, identify the encryption key, and explain relevant cryptographic concepts and tools used during the process.
 
-Modern cryptography uses five key principles for information assurance which are as follows; Availability – How sensitive data can be made available to end-users. Confidentiality – The intended recipient is the only person able to view the sensitive information. Integrity – To ensure data has not been modified in any way between transmission from the sender to the recipient. Non-repudiation – Proof of successfully transferring information from both the sender and the recipient. Authentication – Before accessing any personal information, procedures are in place to check that the user is valid. [2]
+Modern cryptography is built on five key principles of information assurance:
+Availability – Ensuring data is accessible to authorised users.
+Confidentiality – Ensuring only the intended recipient can view sensitive data.
+Integrity – Verifying data hasn’t been altered in transit.
+Non-repudiation – Providing proof of delivery and receipt.
+Authentication – Validating user identity before granting access. [2]
 
-In cryptography, cryptographic techniques are employed in order to securely protect information and communication through the implementation of codes so that only the authorised party can successfully read the message. Cryptography is used to conceal stored information as well as during its transmission. In modern times, cryptography mostly implies scrambling plaintext into ciphertext in a process called, ‘enciphering’ or ‘encryption’, then vice-versa in a process called, ‘deciphering’ or ‘decryption’ which restores the plaintext using the key. Individuals who practice this field of study are known as cryptographers. This type of scheme is known as a ‘cryptographic system’ or a ‘cipher’. Techniques used for deciphering a message without any prior knowledge of the encryption algorithm used are known as the field of ‘cryptanalysis’. Cryptanalysis is defined simply as cracking/breaking the code. The areas of cryptography and cryptanalysis together are called cryptology. [1]
+Cryptography secures data through encryption, transforming plaintext into ciphertext, and decryption, which restores it using a key. These processes protect both stored and transmitted data. Cryptanalysis refers to techniques for breaking encryption without knowing the algorithm or key. Together, cryptography and cryptanalysis form the broader field of cryptology. [1]
 
 <h2>Summary</h2>
 The purpose of this report is to draw on a variety of cryptographic concepts whilst appreciating and discussing the significance of some of the techniques used to decrypt the message’s ciphertext within the encrypted file.
